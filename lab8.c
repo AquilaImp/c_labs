@@ -110,23 +110,18 @@ int detect_long_key()
 						break;
 					case '4':
 						printf("[End]: 27 %d %d 126", begin, term_type);
-						mygetch();
 						break;
 					case '5':
 						printf("[Page Up]: 27 %d %d 126", begin, term_type);
-						mygetch();
 						break;
 					case '6':
 						printf("[Pg Down]: 27 %d %d 126", begin, term_type);
-						mygetch();
 						break;
 					case '7':
 						printf("[Home]: 27 %d %d 126", begin, term_type);
-						mygetch();
 						break;
 					case '8':
 						printf("[End]: 27 %d %d 126", begin, term_type);
-						mygetch();
 						break;
 					case '9':
 						printf("Unknown key: 27 %d %d 126", begin, term_type);
